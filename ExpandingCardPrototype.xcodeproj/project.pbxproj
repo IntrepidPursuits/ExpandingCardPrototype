@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		66094CD91CA5D82000E0C6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66094CD81CA5D82000E0C6FB /* main.m */; };
 		66094CDC1CA5D82000E0C6FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66094CDB1CA5D82000E0C6FB /* AppDelegate.m */; };
-		66094CDF1CA5D82000E0C6FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66094CDE1CA5D82000E0C6FB /* ViewController.m */; };
-		66094CE21CA5D82000E0C6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66094CE01CA5D82000E0C6FB /* Main.storyboard */; };
 		66094CE41CA5D82000E0C6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66094CE31CA5D82000E0C6FB /* Assets.xcassets */; };
 		66094CE71CA5D82000E0C6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66094CE51CA5D82000E0C6FB /* LaunchScreen.storyboard */; };
+		66094CF11CA5D85300E0C6FB /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66094CEF1CA5D85300E0C6FB /* CardViewController.m */; };
+		66094CF21CA5D85300E0C6FB /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66094CF01CA5D85300E0C6FB /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		66094CD81CA5D82000E0C6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66094CDA1CA5D82000E0C6FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66094CDB1CA5D82000E0C6FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		66094CDD1CA5D82000E0C6FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		66094CDE1CA5D82000E0C6FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		66094CE11CA5D82000E0C6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66094CE31CA5D82000E0C6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66094CE61CA5D82000E0C6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66094CE81CA5D82000E0C6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66094CEE1CA5D85300E0C6FB /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardViewController.h; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.h; sourceTree = "<group>"; };
+		66094CEF1CA5D85300E0C6FB /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardViewController.m; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.m; sourceTree = "<group>"; };
+		66094CF01CA5D85300E0C6FB /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardViewController.xib; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				66094CDA1CA5D82000E0C6FB /* AppDelegate.h */,
 				66094CDB1CA5D82000E0C6FB /* AppDelegate.m */,
-				66094CDD1CA5D82000E0C6FB /* ViewController.h */,
-				66094CDE1CA5D82000E0C6FB /* ViewController.m */,
-				66094CE01CA5D82000E0C6FB /* Main.storyboard */,
+				66094CEE1CA5D85300E0C6FB /* CardViewController.h */,
+				66094CEF1CA5D85300E0C6FB /* CardViewController.m */,
+				66094CF01CA5D85300E0C6FB /* CardViewController.xib */,
 				66094CE31CA5D82000E0C6FB /* Assets.xcassets */,
 				66094CE51CA5D82000E0C6FB /* LaunchScreen.storyboard */,
 				66094CE81CA5D82000E0C6FB /* Info.plist */,
@@ -138,7 +138,7 @@
 			files = (
 				66094CE71CA5D82000E0C6FB /* LaunchScreen.storyboard in Resources */,
 				66094CE41CA5D82000E0C6FB /* Assets.xcassets in Resources */,
-				66094CE21CA5D82000E0C6FB /* Main.storyboard in Resources */,
+				66094CF21CA5D85300E0C6FB /* CardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +149,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66094CDF1CA5D82000E0C6FB /* ViewController.m in Sources */,
 				66094CDC1CA5D82000E0C6FB /* AppDelegate.m in Sources */,
 				66094CD91CA5D82000E0C6FB /* main.m in Sources */,
+				66094CF11CA5D85300E0C6FB /* CardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66094CE01CA5D82000E0C6FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66094CE11CA5D82000E0C6FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		66094CE51CA5D82000E0C6FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
