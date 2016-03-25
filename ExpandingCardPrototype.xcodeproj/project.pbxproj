@@ -23,9 +23,9 @@
 		66094CE31CA5D82000E0C6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66094CE61CA5D82000E0C6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66094CE81CA5D82000E0C6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66094CEE1CA5D85300E0C6FB /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardViewController.h; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.h; sourceTree = "<group>"; };
-		66094CEF1CA5D85300E0C6FB /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardViewController.m; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.m; sourceTree = "<group>"; };
-		66094CF01CA5D85300E0C6FB /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardViewController.xib; path = ../../QuickQuotePrototype/QuickQuotePrototype/CardViewController.xib; sourceTree = "<group>"; };
+		66094CEE1CA5D85300E0C6FB /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		66094CEF1CA5D85300E0C6FB /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		66094CF01CA5D85300E0C6FB /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +292,7 @@
 				66094CED1CA5D82000E0C6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
